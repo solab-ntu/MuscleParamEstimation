@@ -1,0 +1,21 @@
+{
+  "file": 
+  {
+    "setup_cmc": "xml_setup_CMC.xml",
+    "setup_fwd": "xml_setup_FWD.xml"
+  },
+  
+  "sa_settings": 
+  {
+    "perturbation": 0.05,
+    "sample": 500
+  },
+
+  "sa_variable": 
+  {
+    "model":[["arm26_2500g.osim"]],
+    "direction":[[1, -1]],
+    "shoulder_angle":[[-90, -45, 0, 45, 90, 135, 180]],
+    "elbow_angle":[[0, 90], [0, 130], [90, 130]]
+  }
+}

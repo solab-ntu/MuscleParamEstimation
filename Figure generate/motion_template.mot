@@ -1,0 +1,6 @@
+inDegrees=yes
+DataType=double
+version=3
+OpenSimVersion=4.4-2022-07-23-0e9fedc
+endheader
+time	base_tilt	base_list	base_rotation	r_shoulder_elev	r_elbow_flex

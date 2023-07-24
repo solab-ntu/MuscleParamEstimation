@@ -1,0 +1,30 @@
+{
+  "mot_desired": 
+  [
+    {
+      "direction": -1,
+      "shoulder_angle": 180,
+      "elbow_angle": [[0, 90]]
+    }
+  ],
+
+  "file": 
+  {
+    "model": "arm26_2500g.osim",
+    "setup_cmc": "xml_setup_CMC.xml",
+    "setup_fwd": "xml_setup_FWD.xml"
+  },
+
+  "interest": 
+  {
+    "muscle_name": [["BICshort"]],
+    "param_bool": [[1, 1, 1]]
+  },
+  
+  "sa_settings": 
+  {
+    "perturbation": 0.05,
+    "sample": 500
+  }
+
+}
